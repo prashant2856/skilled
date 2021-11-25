@@ -1,0 +1,38 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    &.title-medium {
+        font-weight: 500;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 2.0625rem; /* 33px */
+}
+h3,
+.h3 {
+    font-size: 1.625rem; /* 26px */
+}
+
+h4,
+.h4 {
+    font-size: 1.25rem; /* 20px */
+}
+h5,
+.h5 {
+    font-size: 1rem; /* 16px */
+}
+h6,
+.h6 {
+    font-size: 0.875rem; /* 14px */
+}
