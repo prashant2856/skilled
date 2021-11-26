@@ -4,6 +4,16 @@
     @include media-breakpoint-up(md) {
         font-weight: 16px;
     }
+    &.btn-icon-28{
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &.btn-circle{
+            border-radius: 100%;
+        }
+    }
     &.md-btn-34 {
         font-size: 12px;
         font-weight: 500;

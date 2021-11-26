@@ -6,7 +6,7 @@ mix.setPublicPath("dist");
 
 mix.js("src/js/home.js", "dist/js");
 // mix.sass("src/sass/home.scss", "dist/css");
-mix.sass("src/sass/home.scss", "dist/css");
+mix.sass("src/sass/common.scss", "dist/css");
 
 
 mix.copyDirectory("src/images", "dist/images");

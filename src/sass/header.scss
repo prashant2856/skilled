@@ -1,3 +1,18 @@
-header {
-   
+header.sk-header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    .bg-dark{
+        background-color: rgba(0,0,0,0.4) !important;
+        backdrop-filter: blur(30px);
+     }
+     .navbar-nav-right{
+         .nav-item{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             padding: 15px 15px;
+         }
+     }
 }

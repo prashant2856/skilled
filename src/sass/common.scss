@@ -1,75 +1,28 @@
-html,
-body {
-    height: 100%;
-}
+@import "fonts-montserrat";
 
-body {
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale;
-}
+// Variables
+@import "variables";
+
+// scss-docs-start import-stack
+@import "~bootstrap/scss/bootstrap";
+
+// Configuration
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+
 
 @import "typography";
 @import "form";
 @import "header";
 @import "footer";
+@import "home";
 
-.md-fade {
-    animation-name: fade;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.md-text-hindi {
-    font-family: $hindi-f;
-}
-
-.md-text-justify {
-    text-align: justify;
-}
-
-.md-title-dash {
-    text-align: center;
-    position: relative;
-    padding-bottom: 15px;
-    margin: 0 0 25px 0;
-    font-size: 16px;
-
-    @include media-breakpoint-up(sm) {
-        font-size: 20px;
-        margin: 0 0 35px 0;
-    }
-
-    @include media-breakpoint-up(md) {
-        font-size: 24px;
-    }
-
-    @include media-breakpoint-up(lg) {
-        font-size: 32px;
-    }
-
-    &::after {
-        content: "";
-        position: absolute;
-        background-color: $primary;
-        border-radius: 5px;
-        height: 5px;
-        width: 92px;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        background: #fca72c;
-        box-shadow: 0px 10px 16px rgba(229, 135, 47, 0.3);
-    }
+html,
+body {
+    height: 100%;
 }
 
 /*- --*/
